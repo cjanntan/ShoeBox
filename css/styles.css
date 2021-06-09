@@ -1,0 +1,163 @@
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ffcc29;
+
+}
+
+.navbar{
+  height: 90px;
+}
+.container-fluid{
+  padding: 3% 15%;
+
+}
+h1{
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 4.7rem;
+  line-height: 1.2;
+
+}
+.head{
+  padding-top :2rem;
+  padding-bottom: 2rem;
+
+}
+
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.2rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.7rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 16px;
+  font-weight: bold;
+
+}
+.nav-link{
+  font-size:1.5rem;
+  font-family: "Montserrat";
+}
+/* downoadbuttom */
+.download-button{
+  margin: 5% 3% 5% 0 ;
+}
+/* phneimg */
+.nikephone{
+  padding-left: 20%;
+  width: 95%;
+}
+/* featuresection */
+#features{
+  background-color: white;
+  padding: 7% 15%;
+}
+.featuresbox{
+  text-align: center;
+  padding: 5%;
+
+}
+h3{
+  font-family: "Montserrat";
+  font-weight:bold;
+}
+
+p{
+  color: grey;
+}
+.faiconcolor{
+  color: #0a1d37;
+  margin-bottom: 1.5rem;
+}
+.faiconcolor:hover{
+  color: #ffcc29;
+}
+/* <!-- Testimonials --!> */
+#testimonials{
+  background-color:#ffcc29;
+  padding: 10% 19%;
+  text-align: center;
+  color: #ffff;
+}
+h2{
+  text-align: center;
+  font-family: "Montserrat-Black", sans-serif;
+  font-size: 3rem;
+  line-height: 3.2rem;
+  margin: 20px;
+}
+.testimonial-img{
+
+  text-align: center;
+  width: 40%;
+  border-radius: 15%;
+  margin : 15% 45% 15% 25%;
+}
+em{
+  text-align: center;
+  padding-right: 10%;
+}
+#brands{
+  background-color:#ffcc29;
+  text-align: center;
+
+}
+.brandlogos{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  width:10%;
+}
+/* bestselling */
+#bestselling{
+  padding:90px;
+}
+.best-selling-title{
+  padding-top:8%;
+  padding-bottom:5%;
+}
+.bestselling{
+  padding: 3% 2%;
+}
+/* cta */
+#cta{
+  background-color: #ffcc29;
+  text-align:  center;
+  padding: 10% 10%;
+
+}
+.cta-text{
+  font-family: "Montserrat-Black",sans-serif;
+  font-weight: 600;
+  line-height: 3rem;
+  color:#fff;
+  padding-bottom: 20px;
+}
+/* footer */
+#footer{
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+.social-icons{
+  color: black;
+  padding: 30px 30px;
+}
+.social-icon:hover{
+  color:black;
+}
+
+
+/* media-qurey */
+@media (max-width: 810px){
+  #titile{
+    text-align: center;
+  }
+  .nikephone{
+    width: 70%;
+}
